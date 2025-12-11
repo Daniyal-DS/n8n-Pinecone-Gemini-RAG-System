@@ -5,7 +5,10 @@ This project is an end-to-end **Retrieval-Augmented Generation (RAG) AI Agent** 
 The system automatically ingests documents, embeds them, stores them in a vector database, and uses an AI agent to answer user questions in real-time through a chat interface.
 
 ---
-
+## RAG WorkFlow
+![RAG Agent Workflow](./Rag%20agent%20workflow.jpg)
+## Chat Interface
+![Chat Interface](./Chat%20Interface.jpg)
 
 ## 🚀 Features
 
@@ -37,4 +40,22 @@ The system automatically ingests documents, embeds them, stores them in a vector
 ---
 
 ## 🧩 Architecture Overview
+
+ Google Drive → Download File → Text Loader → Text Splitter → Embeddings → Pinecone Storage
+↓
+Chat Trigger → AI Agent (Gemini) → Pinecone Retrieval → Final Answer
+
+## 🎯 Purpose & Use Cases
+
+- Automated Company Policy Chatbot  
+- Internal Knowledge Base Search Agent  
+- Smart FAQ Assistant  
+- Document Intake + Retrieval System 
+
+## 🙌 Author
+
+**Daniyal Haider**  
+AI Engineer & Data Science Enthusiast  
+LinkedIn: https://www.linkedin.com/in/daniyal-haider83/  
+GitHub: https://github.com/Daniyal-DS
 
